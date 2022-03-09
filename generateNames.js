@@ -27,7 +27,7 @@ function getUniqueFemaleFirstLast() {
 
 async function main() {
   const count = 10001;
-  while (maleFirstLast.size < count) {
+  while (maleFirstLast.size < count || femaleFirstLast.size < count) {
     const newMaleName = getUniqueMaleFirstLast();
     const newFemaleName = getUniqueFemaleFirstLast();
     maleFirstLast.add(newMaleName);

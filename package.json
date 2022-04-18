@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "@nfteyez/sol-rayz": "^0.10.2",
+    "@solana/web3.js": "^1.36.0",
     "lodash": "^4.17.21",
-    "node-fetch": "^3.2.2"
+    "node-fetch": "2"
   }
 }
